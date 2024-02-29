@@ -15,7 +15,7 @@ const portfolio = () => {
         const handleResize = () => {
             const isMobile = window.innerWidth <= 888;
             if (isMobile) {
-                intervalId = setInterval(handleInterval, 3000);
+                intervalId = setInterval(handleInterval, 5000);
             } else {
                 clearInterval(intervalId);
             }
