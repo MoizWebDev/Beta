@@ -1224,3 +1224,6 @@ html {
 .text-panel {
   flex: 0 0 auto;
 }
+.main-invest .desc-invest {
+  margin-left: 0px !important;
+}
